@@ -8,6 +8,22 @@ importers:
 
   .: {}
 
+  examples/anthropic-governed-agent:
+    dependencies:
+      '@aegisora/sdk':
+        specifier: ^0.1.2
+        version: 0.1.2
+      '@anthropic-ai/sdk':
+        specifier: ^0.60.0
+        version: 0.60.0
+    devDependencies:
+      '@types/node':
+        specifier: ^20
+        version: 20.19.43
+      typescript:
+        specifier: ^5
+        version: 5.9.3
+
   examples/langchain-agent-governance:
     dependencies:
       '@aegisora/sdk':
@@ -109,6 +125,10 @@ packages:
 
   '@aegisora/security-engine@0.1.2':
     resolution: {integrity: sha512-D1urywlhPsAP+Z4mYb8k4gCFcrNTraiJA85lkOaURnyYc+dsGamifR9Yx9KVmN4tX/GMJas2PD0pRNMHF6hU0g==}
+
+  '@anthropic-ai/sdk@0.60.0':
+    resolution: {integrity: sha512-9zu/TXaUy8BZhXedDtt1wT3H4LOlpKDO1/ftiFpeR3N1PCr3KJFKkxxlQWWt1NNp08xSwUNJ3JNY8yhl8av6eQ==}
+    hasBin: true
 
   '@cfworker/json-schema@4.1.1':
     resolution: {integrity: sha512-gAmrUZSGtKc3AiBL71iNWxDsyUC5uMaKKGdvzYsBoTW/xi42JQHl7eKV2OYzCUqvc+D2RCcf7EXY2iCyFIk6og==}
@@ -518,6 +538,8 @@ snapshots:
   '@aegisora/security-engine@0.1.2':
     dependencies:
       '@aegisora/core': 0.1.2
+
+  '@anthropic-ai/sdk@0.60.0': {}
 
   '@cfworker/json-schema@4.1.1': {}
 
