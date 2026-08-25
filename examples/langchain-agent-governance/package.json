@@ -1,0 +1,23 @@
+{
+  "name": "@aegisora/example-langchain-agent-governance",
+  "version": "0.1.2",
+  "private": true,
+  "description": "Runnable LangChain integration example for Aegisora.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "start": "tsx index.ts",
+    "test": "tsx index.ts"
+  },
+  "dependencies": {
+    "@aegisora/sdk": "^0.1.2",
+    "@langchain/core": "^1.2.9"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "tsx": "^4",
+    "typescript": "^5"
+  }
+}
