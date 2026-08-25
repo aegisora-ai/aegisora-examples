@@ -1,0 +1,22 @@
+{
+  "name": "@aegisora/example-openai-governed-agent",
+  "version": "0.1.2",
+  "private": true,
+  "description": "Runnable OpenAI Responses API integration example for Aegisora.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "node dist/index.js",
+    "live": "node dist/index.js --live"
+  },
+  "dependencies": {
+    "@aegisora/sdk": "^0.1.2",
+    "openai": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "typescript": "^5"
+  }
+}
