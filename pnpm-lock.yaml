@@ -24,6 +24,19 @@ importers:
         specifier: ^5
         version: 5.9.3
 
+  examples/custom-agent-governance:
+    dependencies:
+      '@aegisora/sdk':
+        specifier: ^0.1.2
+        version: 0.1.2
+    devDependencies:
+      '@types/node':
+        specifier: ^20
+        version: 20.19.43
+      typescript:
+        specifier: ^5
+        version: 5.9.3
+
   examples/google-governed-agent:
     dependencies:
       '@aegisora/sdk':

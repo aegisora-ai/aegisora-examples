@@ -13,14 +13,14 @@ This repository contains reproducible examples showing how agent frameworks, mod
 | Example | Status |
 | --- | --- |
 | LangGraph Agent Governance | Maintained |
-| LangChain Agent Governance | Planned |
-| MCP Tool Governance | Planned |
-| OpenAI Governed Agent | Planned |
-| Anthropic Governed Agent | Planned |
-| Google Governed Agent | Planned |
-| Groq Governed Agent | Planned |
-| Qwen Governed Agent | Planned |
-| Custom Agent Governance | Planned |
+| LangChain Agent Governance | Maintained |
+| MCP Tool Governance | Maintained |
+| OpenAI Governed Agent | Maintained |
+| Anthropic Governed Agent | Maintained |
+| Google Governed Agent | Maintained |
+| Groq Governed Agent | Maintained |
+| Qwen Governed Agent | Maintained |
+| Custom Agent Governance | Maintained |
 
 ## Requirements
 
