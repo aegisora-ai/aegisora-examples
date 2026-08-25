@@ -1,0 +1,1 @@
+# Aegisora LangGraph Governance Example`r`n`r`nRunnable LangGraph integration example using the public Aegisora SDK.`r`n`r`n## Install`r`n`r`n````bash`r`npnpm install`r`n`````r`n`r`n## Test`r`n`r`n````bash`r`npnpm --filter @aegisora/example-langgraph-agent-governance test`r`n`````r`n`r`nExpected:`r`n`r`n````text`r`nSTATUS=SUCCESS`r`nEXAMPLE_RESULT=PASS`r`n````
