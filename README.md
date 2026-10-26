@@ -33,16 +33,16 @@ This repository contains reproducible examples showing how agent frameworks, mod
 
 ## Maintained example
 
-``bash
+```bash
 pnpm --filter @aegisora/example-langgraph-agent-governance test
-``
+```
 
 Expected:
 
-``text
+```text
 STATUS=SUCCESS
 EXAMPLE_RESULT=PASS
-``
+```
 
 ## Documentation
 
